@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Mulish', sans-serif;
+}
+
+.logo{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+
+.contenido{
+	width: 1000px;
+	margin: 0;
+	padding: 12px 0;
+}
+
+
+.menu{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 14px;
+	display: block;
+	position: fixed;
+	
+}
+
+
+.encabezado{
+	width: 1200px;
+	margin: 0;
+	padding: 0 0;
+}
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background: #E96479;
+	position: fixed;
+	
+	animation: entrada-izq 1.1s ease;
+}
+
+header img{
+	float: left;
+	height: 78px;
+	width: auto;
+	display: block;
+	
+	animation: entrada-izq 1.1s ease 0.8s forwards;
+	opacity: 0;
+}
+
+nav{
+	float: right;
+}
+
+nav a{
+	padding: 20px 30px;
+	color: #FDFDFC;
+	text-decoration: none;
+	line-height: 70%;
+	font-weight: 700;
+	border-radius: 400px;
+	
+	transition: all 1s;
+}
+
+nav a:hover{
+	background: #4D455D;
+	color: #FDFDFC;
+}
+
+#link1{
+	animation: opacidad 0.5s ease-out 1s forwards;
+	opacity: 0;
+}
+
+#link2{
+	animation: opacidad 0.5s ease-out 1.1s forwards;
+	opacity: 0;
+}
+
+#link3{
+	animation: opacidad 0.5s ease-out 1.2s forwards;
+	opacity: 0;
+}
+
+#link4{
+	animation: opacidad 0.5s ease-out 1.3s forwards;
+	opacity: 0;
+}
+
+#link5{
+	animation: opacidad 0.5s ease-out 1.3s forwards;
+	opacity: 0;
+}
+
+.banner{
+	width: 90%;
+	float: center;
+	text-align: center;
+}
+
+.banner img{
+	width: 1349px;
+	height: auto;
+	display: block;
+}
+
+/* SCROLL */
+nav img{
+	width: 20%;
+	margin: 20px;
+	float: left;
+	
+	animation: opacidad 0.6s ease-out 1.4s forwards;
+	opacity: 0;
+}
+
+.scroll a{
+	text-align: center;
+	color: beige;
+	text-decoration: none;
+	font-weight: bold;
+	width: 25%;
+	display: block;
+	float: left;
+	line-height: 3em;
+	transition: all 1s;
+}
+
+
+.scroll a:hover{
+	color: rgb(34,193,195);
+}
+
+/* SMOOTH SCROLL */
+
+.section{
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+
+.section h1{
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	padding: 5% 0 0 0;
+	text-shadow: 2px 2px 3px #555;
+}
+
+.section h2{
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	padding: auto 0 0 50%;
+	
+}
+
+
+#sobre-mi{
+	background: rgba(243,182,159,255);
+	background: linear-gradient(0deg, rgba(245, 233, 207) 70%, rgba(243,182,159,255)100%);
+}
+
+#galeria{
+	background: rgba(245,233,207);
+}
+
+#contacto{
+	background: rgba(245, 233, 207);
+	background: linear-gradient(0deg, rgba(243,182,159,255) 10%, rgba(245,233,207) 100%);
+}
+
+#cotizacion{
+	background: rgba(243,182,159,255);
+}
+
+
+
+/* FOOTER */
+
+footer{
+	width: 100%;
+	background: #4D455D;
+	padding: 25px 0;
+	text-align: center;
+	color: #FDFDFC;
+}
+
+
+/* ANIMACIÓN */
+
+@keyframes entrada-izq{
+	from{
+		transform: translate(-600px);
+		opacity: 0;
+	}
+	
+	to{
+		transform: translate(0);
+		opacity: 1;
+	}
+}
+
+@keyframes opacidad{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+@keyframes entrada-der{
+	from{
+		transform: translate(-1000px);
+		opacity: 0;
+	}
+	to{
+		transform: translate(0);
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
