@@ -128,30 +128,6 @@ body, html{
 	scroll-behavior: smooth;
 }
 
-ul{
-    list-style-type: none;
-}
-
-nav li{
-    display: inline-block;
-    margin: 0 4px;
-}
-
-nav li a{
-    padding: 10px 0;
-    text-decoration: none;
-    color: #4D455D;
-    transition: all ease-in-out 0.5s;
-}
-
-navli a:hover{
-    color: #bbb;
-}
-
-
-
-/* Sobre-mi */
-
 /* Galeria */
 
 /* Fin de galeria */
@@ -219,24 +195,6 @@ input[type="submit"]:hover{
 /*FIN FORMULARIO*/
 
 
-.scroll a{
-	text-align: center;
-	color: beige;
-	text-decoration: none;
-	font-weight: bold;
-	width: 25%;
-	display: block;
-	float: left;
-	line-height: 3em;
-	transition: all 1s;
-}
-
-
-.scroll a:hover{
-	color: rgb(34,193,195);
-}
-/* */
-
 .section{
 	width: 100%;
 	height: 100vh;
@@ -246,30 +204,37 @@ input[type="submit"]:hover{
 }
 
 
-.section h1{
-	font-size: 2em;
-	color: white;
-	text-align: center;
-	padding: 10% 0 0 0;
-	text-shadow: 1px 1px 2px #555;
-}
-
-.section h2{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-	font-size: 20px;
-	color: white;
-	text-align: left;
-	padding: auto 0 0 50%;
-	
-}
-
 
 #sobre-mi{
-    background: #F5E9CF;
-	/*background: rgba(243,182,159,255);
-	background: linear-gradient(0deg, rgba(245, 233, 207) 70%, rgba(243,182,159,255)100%);*/
+	background: rgba(243,182,159,255);
+	background: linear-gradient(0deg, rgba(245, 233, 207) 70%, rgba(243,182,159,255)100%);
+	height: 600px;
+	width: auto;
+	padding: 100px 40px;
+	text-align: left;
+}
+
+#sobre-mi img{
+	justify-content: left;
+	display: block;
+	float: left;
+	width: auto;
+	height: 600px;
+	margin: 0 40px 0 0;
+}
+
+#sobre-mi h1{
+	margin: 10px 0 10px 0;
+	font-size: 30px;
+	color: #C66358;
+	text-shadow: 1px 1px 2px rgba(105, 52, 46, 0.30);
+}
+
+#sobre-mi h2{
+	margin: 0 0 10px 0;
+	font-size: 20px;
+	color: #69342E;
+
 }
 
 #galeria{
