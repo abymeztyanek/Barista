@@ -22,13 +22,38 @@
 	position: fixed;
 }
 
+/*.container {
+	font-family:;
+	font-style: italic;
+	font-size: 30px;
+	width: 600px;
+	height: 554px;
+	overflow:visible;
+	position:absolute;
+	top: 130px;
+	left: 15px;
+	color: #1f0f0d;
 
+	animation: opacidad 1.3s ease-in-out 2.5s forwards;
+	opacity: 0;
+}
 
-.container {
-    padding: 22px;
-    margin: 0 auto;
-    text-align: center;
-  }
+.container-dos{
+	font-size: 30px;
+	width: 600px;
+	height: 554px;
+	
+	overflow: visible;
+	position: absolute;
+	top: 500px;
+	left: 950px;
+	padding-right: -100px;
+	color: #1f0f0d;
+
+	animation: opacidad 1.8s ease-in-out 3.3s forwards;
+	opacity: 0;
+}
+*/
 
 .encabezado{
 	width: 1200px;
@@ -128,10 +153,6 @@ body, html{
 	scroll-behavior: smooth;
 }
 
-/* Galeria */
-
-/* Fin de galeria */
-
 /* CONTACTO */
 .contenido-contacto{
 	width: 1200px;
@@ -145,13 +166,13 @@ body, html{
 }
 /* Formulario */
 form{
-	margin: 5px 0 100px 355px;
-	height: 450px;
+	margin: 3px 0 70px 373px;
+	height: 400px;
 }
 
 .input-formulario{
 	width: 50%;
-	margin: 20px;
+	margin: 12px;
 	padding: 10px;
 	background: #F5E9CF;
 	border-radius: 30px;
@@ -161,7 +182,7 @@ form{
 
 label{
 	width: 50%;
-	margin: 20px;
+	margin: 12px;
 	float: left;
 	display: block;
 	
@@ -204,13 +225,12 @@ input[type="submit"]:hover{
 }
 
 
-
 #sobre-mi{
 	background: rgba(243,182,159,255);
 	background: linear-gradient(0deg, rgba(245, 233, 207) 70%, rgba(243,182,159,255)100%);
 	height: 600px;
 	width: auto;
-	padding: 100px 40px;
+	padding: 80px 40px;
 	text-align: left;
 }
 
@@ -223,8 +243,9 @@ input[type="submit"]:hover{
 	margin: 0 40px 0 0;
 }
 
+
 #sobre-mi h1{
-	margin: 10px 0 10px 0;
+	margin: 50px 0 10px 0;
 	font-size: 30px;
 	color: #C66358;
 	text-shadow: 1px 1px 2px rgba(105, 52, 46, 0.30);
@@ -232,24 +253,71 @@ input[type="submit"]:hover{
 
 #sobre-mi h2{
 	margin: 0 0 10px 0;
-	font-size: 20px;
+	margin-top: 20px;
+	font-size: 50px;
 	color: #69342E;
+}
+#sobre-mi h3{
+	margin: 0 0 20px 40px;
+	font-size: 50px;
+	color: #69342E;
+	margin-bottom: 40px;
+}
 
+#sobre-mi p{
+	margin-right: 200px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	color: #1f0f0d;
 }
 
 #galeria{
 	background: rgba(245,233,207);
+	height: 600px;
+	width: auto;
+	padding-top: 50px;
+	text-align: center;
 }
+
+#galeria h1{
+	font-size: 30px;
+	color: #C66358;
+	text-shadow: 1px 1px 2px rgba(105, 52, 46, 0.30);
+}
+
+
+
+
 
 #contacto{
 	background: rgba(245, 233, 207);
 	background: linear-gradient(0deg, rgba(243,182,159) 10%, rgba(245,233,207) 100%);
+	height: 600px;
+	width: auto;
+	padding: 100px 0 0 0;
+	text-align: center;
+}
+
+#contacto h1{
+	font-size: 30px;
+    padding: 0 0 -40px 0;
+	color: #C66358;
+	text-shadow: 1px 1px 2px rgba(105, 52, 46, 0.30);
 }
 
 #cotizacion{
 	background: rgba(243,182,159,255);
+	height: 500px;
+	width: auto;
+	padding-top: 100px;
+	text-align: center;
 }
 
+#cotizacion h1{
+	font-size: 30px;
+	color: #C66358;
+	text-shadow: 1px 1px 2px rgba(105, 52, 46, 0.30);
+}
 
 
 /* FOOTER */
@@ -273,7 +341,7 @@ footer{
 }
 
 .redes img{
-	width: 30px;
+	width: 40px;
 	height: auto;
 	padding: 80px 50px 20px 50px;
 	display:flex;
