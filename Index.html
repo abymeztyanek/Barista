@@ -6,7 +6,6 @@
 	<link href="CSS/estilo.css" type="text/css" rel="stylesheet">
 	
 <title>Barista_Lola</title>
-	
 </head>
 
 <body>
@@ -15,17 +14,17 @@
 		<div class="logo">
 			<img src="IMAGES/LOGO1.png" alt="logo lola">
 		</div>
-			
+    </header>
+
 		<div class="menu">
 			<nav>
-				<a href="Index.html" id="link1">Inicio</a>
+				<a href="#inicio" id="link1">Inicio</a>
 				<a href="#sobre-mi" id="link2">Sobre mi</a>
 				<a href="#galeria" id="link3">Galería</a>
 				<a href="#contacto" id="link4">Contacto</a>
 				<a href="#cotizacion" id="link5">Cotización</a>
 			</nav>
 		</div>
-	</header>
 		
 	<section class="encabezado">
 		<div class="banner">
@@ -34,61 +33,33 @@
 	</section>
 		
 <!----- SMOOTH SCROLL ----->
-<nav class="scroll">
-	<!----- h1>Sobre mi</h1 ----->
-	<section id="sobre-mi" class="section">
-			<img src="IMAGES/fotodeperfil.jpg" alt="perfil">
-		<h1>Sobre mi</h1>
-		<h2>Lola Martinez</h2>
-        <h3>barista profesional</h3>
-             <p>Hola, mi nombre es Lola Martinez, una mexicana apasionada por la cultura del café y me tomo muy en serio mi pasión por el barismo. He decidido abrir este espacio virtual en español porque creo en el compartir de la información sobre el café que beneficia a todos; desde el barista hasta el consumidor que solo desea probar algo nuevo. 
-              Todos merecemos tomarnos una buena taza de café, sobretodo viviendo en un pais tan rico en diversidad como lo es México. Te invito a mantenerte al tanto de las novedades y continuar con la experiencia. Continuamente les compartire información tanto de interes para los baristas y los consumidores.
-              ¡Saludos y que disfrutes la experiencia!</p>
-	</section>
-	
-    <!----- Galeria ----->
-	<section id="galeria" class="section">
-		<h1>Galería</h1>
-        <div class="multi-carousal-container">
-            <button class="arrow-btn left-btn" id="leftBtnId"></button>
+<ul>
 
-            <div id="verticalWrapperId" class="carousal vertical-carousal">
+    <li><a href="#inicio" class="scroll"></a></li>
 
-              <div class="card info-card">
-                <img href="IMAGES/coffe.jpg" alt="cafe galeria">
-              </div>
+<!----- Sobre mi ----->
+    <li><a href="#sobre-mi" class="scroll">
+        <h1>Sobre mi</h1>
+        <p>Hola, mi nombre es Lola Martinez, una mexicana apasionada por la cultura del café y me tomo muy en serio
+           mi pasión por el barismo. He decidido abrir este espacio virtual en español porque creo en el compartir de
+           la información sobre el café que beneficia a todos; desde el barista hasta el consumidor que solo desea probar
+           algo nuevo. 
+           Todos merecemos tomarnos una buena taza de café, sobretodo viviendo en un pais tan rico en diversidad como lo
+           es México. Te invito a mantenerte al tanto de las novedades y continuar con la experiencia. Continuamente les
+           compartire información tanto de interes para los baristas y los consumidores.
+           ¡Saludos y que disfrutes la experiencia!</p>
+        </a>
+    </li>
 
-              <div class="card info-card">
-                <img href="IMAGES/coffe3.jpg" alt="cafe galeria 2">
-              </div>
+<!----- Galeria ----->
+    <li><a href="#galeria" class="scroll">
+        <h1>Galería</h1>
+        </a>
+    </li>
 
-              <div class="card info-card">
-                <img href="IMAGES/coffe4.jpg" alt="cafe galeria 3">
-              </div>
-
-              <div class="card info-card">
-                <img href="IMAGES/coffe5.jpg" alt="cafe galeria 3">
-              </div>
-
-              <div class="card info-card">
-                <img href="IMAGES/coffe6.jpg" alt="cafe galeria 3">
-              </div>
-
-              <div class="card info-card">
-                <img href="IMAGES/coffemachine2.jpg" alt="cafe galeria 3">
-              </div>
-
-            </div>
-
-        <div id="horizontalWrapperId" class="carousal horizontal-carousal">
-            <button class="arrow-btn right-btn" id="rightBtnId"></button>
-          </div>
-		
-	</section>
-	
-    <!----- Contacto ----->
-	<section id="contacto" class="section">
-		<h1>Contacto</h1>
+<!----- Contacto ----->
+    <li><a href="#contacto" class="scroll">
+        <h1>Contacto</h1>
 		 <form>
 		     <input class="input-formulario" type="text" name="nombre" placeholder="Nombre:" required>
 		     <input class="input-formulario" type="email" name="correo" placeholder="Correo electrónico:" required>
@@ -96,21 +67,23 @@
 			 <label name="privacidad">
 				 <input type="checkbox" name="privacidad" required> He leído y acepto el aviso de privacidad de ésta página web. 
 			 </label>
-			  <label name="suscripcion">
+			 <label name="suscripcion">
 				  <input type="checkbox" name="suscripcion" required> Me gustaría recibir avisos y promociones a mi correo electrónico. 
 			 </label>
 			 <input type="submit" name="enviar" value="Enviar">
 		 </form>
 		<div class="clearflix"></div>
-	</section>
-	
-    <!----- Cotización ----->
-	<section id="cotizacion" class="section">
-		<h1>Cotización</h1>
-	</section>
+       </a>
+    </li>
 
-</nav>
-		
+<!----- Cotización ----->
+    <li><a href="#cotizacion" class="scroll">
+        <h1>Cotización</h1>
+        </a>
+    </li>
+
+</ul>
+
 		
 <!----- REDES SOCIALES ----->
 		
@@ -130,11 +103,6 @@
 
 	
 </body>
-</html>
-
-	
-	
-	
-	
+</html>	
 	
 	

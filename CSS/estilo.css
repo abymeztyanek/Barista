@@ -13,12 +13,6 @@
 	padding: 12px 0;
 }
 
-.contenido{
-	width: 1000px;
-	margin: 0;
-	padding: 12px 0;
-}
-
 
 .menu{
 	width: 1200px;
@@ -26,7 +20,6 @@
 	padding: 14px;
 	display: block;
 	position: fixed;
-	
 }
 
 
@@ -60,8 +53,10 @@ header img{
 	opacity: 0;
 }
 
+/* Menú letras y decoración (efecto hover morado) */
 nav{
 	float: right;
+    margin: 28px 0 0 0;
 }
 
 nav a{
@@ -80,6 +75,7 @@ nav a:hover{
 	color: #FDFDFC;
 }
 
+/* Animación de entrada de letras del menú */
 #link1{
 	animation: opacidad 0.5s ease-out 1s forwards;
 	opacity: 0;
@@ -104,6 +100,7 @@ nav a:hover{
 	animation: opacidad 0.5s ease-out 1.3s forwards;
 	opacity: 0;
 }
+/* FIN animación de entrada de letras del menú */
 
 .banner{
 	width: 90%;
@@ -118,6 +115,19 @@ nav a:hover{
 }
 
 /* SCROLL */
+/* Sobre-mi */
+
+/* Galeria */
+
+/* Fin de galeria */
+
+/* Contacto */
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+
 nav img{
 	width: 20%;
 	margin: 20px;
