@@ -278,7 +278,7 @@ input[type="submit"]:hover{
 
 #contacto{
 	background: rgba(245, 233, 207);
-	background: linear-gradient(0deg, rgba(243,182,159,255) 10%, rgba(245,233,207) 100%);
+	background: linear-gradient(0deg, rgba(243,182,159) 10%, rgba(245,233,207) 100%);
 }
 
 #cotizacion{
@@ -297,6 +297,29 @@ footer{
 	color: #FDFDFC;
 }
 
+/* REDES */
+.redes{
+	width: auto;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	background: rgba(243,182,159);
+	
+}
+
+.redes img{
+	width: 30px;
+	height: auto;
+	padding: 80px 50px 20px 50px;
+	display:flex;
+	
+	transition: all 0.8s;
+}
+
+.redes img:hover{
+	transform: scale(1.1);
+	
+}
 
 /* ANIMACIÓN */
 
