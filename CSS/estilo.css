@@ -8,9 +8,9 @@
 }
 
 .logo{
-	width: 1200px;
+	width: 1000px;
 	margin: 0 auto;
-	padding: 12px 0;
+	padding: 10px 0;
 }
 
 
@@ -105,8 +105,9 @@ nav a{
 }
 
 nav a:hover{
-	background: #4D455D;
-	color: #FDFDFC;
+	background: transparent;
+	color: #4D455D;
+	transition-duration: 0.5s;
 }
 
 /* Animación de entrada de letras del menú */
@@ -153,6 +154,36 @@ body, html{
 	scroll-behavior: smooth;
 }
 
+/* GALERIA */
+#galeria{
+	background: rgba(243,182,159,255);
+	background: linear-gradient(0deg, rgba(245, 233, 207) 70%, rgba(243,182,159,255)100%);
+
+}
+
+.container-galeria{ 
+    display: flex;
+	justify-content:center;
+    flex-wrap: wrap;
+    padding: 0 4px;
+	
+}
+
+
+.container-galeria img{
+    /*flex-wrap: wrap;*/
+    width: 320px;
+	height: 300px;
+	margin: 8px 5px;
+	object-fit: cover;
+}
+
+.container-galeria img:hover{
+	filter: grayscale(80%);
+	cursor: pointer;
+	transition: filter .5s;
+}
+
 /* CONTACTO */
 .contenido-contacto{
 	width: 1200px;
@@ -164,10 +195,16 @@ body, html{
 	clear: both;
 	float: none;
 }
-/* Formulario */
+/* Formulario/Cotización */
 form{
 	margin: 3px 0 70px 373px;
 	height: 400px;
+}
+
+.cotizacion{
+	margin: 3px 0 50px 440px;
+	
+
 }
 
 .input-formulario{
@@ -213,6 +250,8 @@ input[type="submit"]:hover{
 	background: #F5E9CF;
 	color: #4D455D;
 }
+
+
 /*FIN FORMULARIO*/
 
 
@@ -225,6 +264,7 @@ input[type="submit"]:hover{
 }
 
 
+/*Sobre mi*/
 #sobre-mi{
 	background: rgba(243,182,159,255);
 	background: linear-gradient(0deg, rgba(245, 233, 207) 70%, rgba(243,182,159,255)100%);
@@ -277,6 +317,8 @@ input[type="submit"]:hover{
 	color: #1f0f0d;
 }
 
+
+ /*Galeria*/
 #galeria{
 	background: rgba(245,233,207);
 	height: 600px;
@@ -357,6 +399,8 @@ footer{
 
 .redes img:hover{
 	transform: scale(1.1);
+	transition-duration: 0.3s;
+	cursor: pointer;
 	
 }
 
