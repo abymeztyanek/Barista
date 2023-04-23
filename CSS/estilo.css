@@ -234,6 +234,12 @@ input[type="submit"]:hover{
 	text-align: left;
 }
 
+.line-1{
+	height: 1px;
+	width: 10px;
+	background: #1f0f0d;
+}
+
 #sobre-mi img{
 	justify-content: left;
 	display: block;
