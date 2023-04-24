@@ -26,6 +26,7 @@ body, html{
 	padding: 14px;
 	display: block;
 	position: fixed;
+	z-index: 2;
 }
 
 ::-webkit-scrollbar{
@@ -62,6 +63,7 @@ header{
 	height: 100px;
 	background: #E96479;
 	position: fixed;
+	z-index: 1;
 	
 	animation: entrada-izq 1.1s ease;
 }
@@ -279,6 +281,7 @@ input[type="submit"]:hover{
 	margin-bottom: 20px;
 	font-size: 15px;
 	color: #1f0f0d;
+	width: 82%;
 }
 
 .line-1{
@@ -418,6 +421,45 @@ footer{
 	to{
 		transform: translate(0);
 		opacity: 1;
+	}
+}
+
+/* RESPONSIVO */
+@media (max-width:900px){
+	.menu{
+		width: 995px;
+	}
+
+	.encabezado{
+		width: 995px;
+	}
+
+	.logo{
+		width: auto;
+	}
+}
+
+@media (max-width: 600px){
+	.menu{
+		width: 98%;
+	}
+
+	.encabezado{
+		width: 80%;
+		overflow: hidden;
+	}
+
+	#sobre-mi{
+        width: 90%;
+	}
+
+	#sobre-mi p{
+		width: 100%;
+	}
+
+	#sobre-mi img{
+		margin: 0 10px 0 0;
+		height: 300px;
 	}
 }
 
