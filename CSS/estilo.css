@@ -129,7 +129,7 @@ nav a:hover{
 
 
 .encabezado{
-	width: 90%;
+	width: 100%;
 	overflow: hidden;
 	float: center;
 }
@@ -137,7 +137,7 @@ nav a:hover{
 .encabezado a{
 	display: block;
 	position: absolute;
-	top: 80%;
+	top: 90%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -158,7 +158,7 @@ nav a:hover{
 }
 
 .encabezado img{
-	width: 1364px;
+	width: 1400px;
 	height: auto;
 	display: block;
 }
