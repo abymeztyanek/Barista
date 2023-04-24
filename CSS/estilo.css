@@ -127,16 +127,14 @@ nav a:hover{
 }
 /* FIN animación de entrada de letras del menú */
 
-.banner{
-	height: 664px;
-	width: 100%;
-	display: block;
+
+.encabezado{
+	width: 90%;
 	overflow: hidden;
-	align-content: center;
-	
+	float: center;
 }
 
-.banner a{
+.encabezado a{
 	display: block;
 	position: absolute;
 	top: 80%;
@@ -149,22 +147,20 @@ nav a:hover{
 	padding: 12px 24px;
 	border: none;
 	cursor: pointer;
-	border-radius: 400px;
+	border-radius: 500px;
 	text-decoration: none;
 	box-shadow: 1px 1px 2px rgba(105, 52, 46, 0.30);
 }
 
-.banner a:hover{
+.encabezado a:hover{
 	background-color: #E96479;
 	color: #ffffff;
 }
 
-.banner img{
-	max-width: auto;
-	height: 664px;
+.encabezado img{
+	width: 1364px;
+	height: auto;
 	display: block;
-	
-	
 }
 
 /* SCROLL */
@@ -312,11 +308,13 @@ hr{
 
 .galeriass{
 	padding-top: 30px;
+	padding-left: 27%;
+	padding-right: 28%;
 	display: grid;
 	grid-auto-rows: repeat (auto-fill, minmax(300px, 1fr));
 	grid-auto-flow: column;
 	overflow-x: scroll;
-	grid-gap: 50px;
+	grid-gap: 70%;
 	grid-auto-columns: minmax(600px, 1fr);
 	align-content: center;
 }
@@ -332,7 +330,7 @@ hr{
 	background: linear-gradient(0deg, rgba(243,182,159) 10%, rgba(245,233,207) 100%);
 	height: 600px;
 	width: auto;
-	padding: 100px 0 0 0;
+	padding: 115px 0 0 0;
 	text-align: center;
 }
 
