@@ -162,7 +162,6 @@ nav a:hover{
 .encabezado img{
 	width: 1400px;
 	height: auto;
-	display: block;
 }
 
 /* SCROLL */
@@ -281,7 +280,7 @@ input[type="submit"]:hover{
 	margin-bottom: 20px;
 	font-size: 15px;
 	color: #1f0f0d;
-	width: 82%;
+	width: 83%;
 }
 
 .line-1{
@@ -426,41 +425,11 @@ footer{
 
 /* RESPONSIVO */
 @media (max-width:900px){
-	.menu{
-		width: 995px;
-	}
 
-	.encabezado{
-		width: 995px;
-	}
-
-	.logo{
-		width: auto;
-	}
 }
 
 @media (max-width: 600px){
-	.menu{
-		width: 98%;
-	}
 
-	.encabezado{
-		width: 80%;
-		overflow: hidden;
-	}
-
-	#sobre-mi{
-        width: 90%;
-	}
-
-	#sobre-mi p{
-		width: 100%;
-	}
-
-	#sobre-mi img{
-		margin: 0 10px 0 0;
-		height: 300px;
-	}
 }
 
 
