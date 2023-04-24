@@ -281,7 +281,7 @@ input[type="submit"]:hover{
 	margin-bottom: 20px;
 	font-size: 15px;
 	color: #1f0f0d;
-	width: 82%;
+	width: 83%;
 }
 
 .line-1{
@@ -426,42 +426,45 @@ footer{
 
 /* RESPONSIVO */
 @media (max-width:900px){
-	.menu{
-		width: 995px;
-	}
-
-	.encabezado{
-		width: 995px;
-	}
-
 	.logo{
-		width: auto;
+      width: device;
+	  scale: 1.0;
 	}
-}
 
-@media (max-width: 600px){
 	.menu{
-		width: 98%;
+      width: 80%;
+	  padding: 0 12px;
 	}
 
-	.encabezado{
-		width: 80%;
-		overflow: hidden;
+	header{
+      width: fit-content 100%;
+	  float: right;
+
+	}
+
+	.encabezado a{
+      max-width: 100%;
+	  top: 70%;
+	  left: 50%;
+	}
+
+	.encabezado img{
+		max-width: 100%;
+		height: auto;
+		padding-top: 10%;
 	}
 
 	#sobre-mi{
-        width: 90%;
-	}
-
-	#sobre-mi p{
-		width: 100%;
+        max-width: 100%;
+		height: auto;
 	}
 
 	#sobre-mi img{
-		margin: 0 10px 0 0;
-		height: 300px;
+		max-width: 50%;
+		height: auto;
 	}
 
+<<<<<<< HEAD
 	#galeria{
 	width: 90%;
 	}
@@ -472,6 +475,24 @@ footer{
 
 	}
 
+=======
+	#sobre-mi h2{
+		max-width: 100%;
+		height: auto;
+		font-size: 87px;
+	}
+
+	#sobre-mi h3{
+		max-width: 100%;
+		height: auto;
+		font-size: 86px;
+	}
+ 
+}
+
+@media (max-width: 600px){
+
+>>>>>>> 8336edd36709f552f3defb2eb5643ea741105121
 }
 
 
