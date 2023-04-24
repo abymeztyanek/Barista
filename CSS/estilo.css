@@ -162,6 +162,7 @@ nav a:hover{
 .encabezado img{
 	width: 1400px;
 	height: auto;
+	display: block;
 }
 
 /* SCROLL */
@@ -425,7 +426,56 @@ footer{
 
 /* RESPONSIVO */
 @media (max-width:900px){
+	.logo{
+      width: device;
+	  scale: 1.0;
+	}
 
+	.menu{
+      width: 80%;
+	  padding: 0 12px;
+	}
+
+	header{
+      width: fit-content 100%;
+	  float: right;
+
+	}
+
+	.encabezado a{
+      max-width: 100%;
+	  top: 70%;
+	  left: 50%;
+	}
+
+	.encabezado img{
+		max-width: 100%;
+		height: auto;
+		padding-top: 10%;
+	}
+
+	#sobre-mi{
+        max-width: 100%;
+		height: auto;
+	}
+
+	#sobre-mi img{
+		max-width: 50%;
+		height: auto;
+	}
+
+	#sobre-mi h2{
+		max-width: 100%;
+		height: auto;
+		font-size: 87px;
+	}
+
+	#sobre-mi h3{
+		max-width: 100%;
+		height: auto;
+		font-size: 86px;
+	}
+ 
 }
 
 @media (max-width: 600px){
