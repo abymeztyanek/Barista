@@ -461,6 +461,17 @@ footer{
 		margin: 0 10px 0 0;
 		height: 300px;
 	}
+
+	#galeria{
+	width: 90%;
+	}
+
+	.galeriass img{
+		max-width: 80%;
+		height: auto;
+
+	}
+
 }
 
 
